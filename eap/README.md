@@ -12,3 +12,5 @@ git clone
 
 
 ## Detailed Delpoyment  
+
+![Delpoyment Diagram](images/deployment-diagram.png)
