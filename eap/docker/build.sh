@@ -1,6 +1,6 @@
 #This is a workaround that we copy all shared files in each docker repo
 docker build -t  "msdemo-db" ./mysql
-
+docker build -t "msdemo-httpd" ./httpd
 mkdir ./eap6-base/shared
 cp -r ./files/* ./eap6-base/shared/
 docker build -t  eap6 ./eap6-base
