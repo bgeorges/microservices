@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
+	<datasource jndi-name="java:jboss/datasources/SalesDS"
+		pool-name="SalesDS" enabled="true" use-java-context="true">
+		<connection-url>jdbc:mysql://sales-db:3306/sales</connection-url>
+		<driver>mysql</driver>
+		<security>
+			<user-name>sales</user-name>
+			<password>password</password>
+		</security>
+	</datasource>
+</datasources>
