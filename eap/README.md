@@ -16,6 +16,10 @@ $ start_all_docker.sh
 ```
 4. Access http://localhost/presentation to start this demo
 
+##Docker Image Layer Overview
+
+![Docker Image Layer Overview Overview](images/docker-images.png)
+
 ## Architecture Overview
 
 ![Architecture Overview](images/demo_architecture.png)
