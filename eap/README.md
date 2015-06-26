@@ -11,6 +11,9 @@ MSA Demos using EAP
 3. run: <pre><code>build.sh</pre></code> to build all docker images
 4. run: <pre><code>start_all_docker.sh</pre></code> to start all docker container
 5. Access http://localhost/presentation to start this demo
+## Docker Image Layer Overview
+
+![Docker Image Layer Overview Overview](images/docker-images.png)
 
 ## Architecture Overview
 
