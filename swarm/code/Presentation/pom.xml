@@ -63,6 +63,32 @@
       <version>${version.wildfly-swarm}</version>
     </dependency>
 
+
+    <dependency>
+      <groupId>org.wildfly.swarm</groupId>
+      <artifactId>wildfly-swarm-ee</artifactId>
+      <version>${version.wildfly-swarm}</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.wildfly.swarm</groupId>
+      <artifactId>wildfly-swarm-ejb</artifactId>
+      <version>${version.wildfly-swarm}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.1-redhat-1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jettison</groupId>
+      <artifactId>jettison</artifactId>
+      <version>1.3.1.redhat-4</version>
+    </dependency>
+
   </dependencies>
 
 </project>
