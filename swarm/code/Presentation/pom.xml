@@ -19,7 +19,7 @@
   <artifactId>presentation</artifactId>
   <version>1.0.0</version>
 
-  <name>Product</name>
+  <name>WildFly Swarm Microserivce Example: Presentation</name>
   <description>Swarm based MSA Demo - Presentation</description>
 
   <packaging>war</packaging>
