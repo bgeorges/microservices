@@ -19,7 +19,7 @@
   <artifactId>product</artifactId>
   <version>1.0.0</version>
 
-  <name>Product</name>
+  <name>WildFly Swarm Microserivce Example: Product</name>
   <description>Swarm based MSA Demo - Product</description>
 
   <packaging>war</packaging>
@@ -61,6 +61,12 @@
       <groupId>org.wildfly.swarm</groupId>
       <artifactId>wildfly-swarm-jaxrs</artifactId>
       <version>${version.wildfly-swarm}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <version>${version.ejb.api}</version>
     </dependency>
 
   </dependencies>
